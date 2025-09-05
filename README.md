@@ -5,7 +5,7 @@ Peng Sun, Yongbin Zheng, Wanying Xu, Jian Li, and Jiansong Yang
 This is the official implementation of the paper: **Completing Missing Entities: Exploring Consistency Reasoning for Remote Sensing Object Detection**, which is implemented on [MMrotate](https://github.com/open-mmlab/mmrotate).
 
 We provide a demo to verify the experimental results, and the complete code will be released after the paper is accepted.
-<img width="1963" height="729" alt="overview" src="https://github.com/user-attachments/assets/97ad4528-bcff-4e55-a7c7-3176c84d6ad0" />
+<img width="600" height="220" alt="overview" src="https://github.com/user-attachments/assets/97ad4528-bcff-4e55-a7c7-3176c84d6ad0" />
 
 ## MMRotate官方使用文档
 [English](/README-EN.md) | [简体中文](/README-CN.md)
@@ -14,19 +14,16 @@ We provide a demo to verify the experimental results, and the complete code will
 The code will be published after the paper is accepted. 
 
 ## Qualitative Results
-<img width="516" height="558" alt="image" src="https://github.com/user-attachments/assets/7d0ba08d-a894-4945-9c90-7099963cf166" /> 
+### Remote Sensing Object Detection Task
+<img width="600" height="290" alt="image" src="https://github.com/user-attachments/assets/485f5933-9848-49d4-bf67-5855963d353e" />
 
-<img width="514" height="426" alt="image" src="https://github.com/user-attachments/assets/7e333b02-ad16-4faa-9997-c0a6d79aa3b7" />
-
-<img width="968" height="468" alt="image" src="https://github.com/user-attachments/assets/485f5933-9848-49d4-bf67-5855963d353e" />
-
-<img width="517" height="386" alt="image" src="https://github.com/user-attachments/assets/4ffb90f8-7767-4bb4-b45e-bd0c2768c32d" />
+### Occluded Object Detection Task
+<img width="600" height="290" alt="image" src="https://github.com/user-attachments/assets/00d67835-2304-440f-90bb-449c608ccb1f" />
 
 ## Benchmark
 ### Remote Sensing Object Detection Task
-
 | Model | Backbone | Dataset | Lr schd |  mAP | Configs | Download |
-|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | FR-O w/ CTRP   | R50-FPN  | DOTA   | 1x  | 75.12 | 
 | FR-O w/ CTRP   | R101-FPN | DOTA   | 1x  | 76.05 |
 | O-RCNN w/ CTRP | R50-FPN  | DOTA   | 1x  | 77.17 |
@@ -34,9 +31,8 @@ The code will be published after the paper is accepted.
 | O-RCNN w/ CTRP | R50-FPN  | DIOR-R | 1x  | 65.53 |
 
 ### Occluded Object Detection Task
-
-| Model | Backbone | Dataset | Lr schd |  mAP |
-|:-:|:-:|:-:|:-:|:-:|
+| Model | Backbone | Dataset | Lr schd |  mAP | Configs | Download |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | FR-O w/ CTRP   | R50-FPN  | Occluded DOTA   | 1x  | 78.30 |
 | FR-O w/ CTRP   | R50-FPN  | Occluded DOTA   | 1x  | 79.29 |
 | O-RCNN w/ CTRP | R101-FPN | Occluded DOTA   | 1x  | 79.76 |
