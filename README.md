@@ -4,21 +4,26 @@ Peng Sun, Yongbin Zheng, Wanying Xu, Jian Li, and Jiansong Yang
 ## Introduction
 This is the official implementation of the paper: **Completing Missing Entities: Exploring Consistency Reasoning for Remote Sensing Object Detection**, which is implemented on [MMrotate](https://github.com/open-mmlab/mmrotate).
 
-We provide a demo to verify the experimental results, and the complete code will be released after the paper is accepted.
-<img width="600" height="220" alt="overview" src="https://github.com/user-attachments/assets/97ad4528-bcff-4e55-a7c7-3176c84d6ad0" />
+<img width="1000" height="360" alt="overview" src="https://github.com/user-attachments/assets/97ad4528-bcff-4e55-a7c7-3176c84d6ad0" />
+
+---
 
 ## MMRotate官方使用文档
 [English](/README-EN.md) | [简体中文](/README-CN.md)
 
+---
+
 ## Code implementation
-The code will be published after the paper is accepted. 
+We provide a demo to verify the experimental results, and the complete code will be released after the paper is accepted.
+
+---
 
 ## Qualitative Results
 ### Remote Sensing Object Detection Task
-<img width="600" height="290" alt="image" src="https://github.com/user-attachments/assets/485f5933-9848-49d4-bf67-5855963d353e" />
+<img width="1000" height="480" alt="image" src="https://github.com/user-attachments/assets/485f5933-9848-49d4-bf67-5855963d353e" />
 
 ### Occluded Object Detection Task
-<img width="600" height="290" alt="image" src="https://github.com/user-attachments/assets/00d67835-2304-440f-90bb-449c608ccb1f" />
+<img width="1000" height="480" alt="image" src="https://github.com/user-attachments/assets/00d67835-2304-440f-90bb-449c608ccb1f" />
 
 ## Benchmark
 ### Remote Sensing Object Detection Task
@@ -41,6 +46,8 @@ The code will be published after the paper is accepted.
 | FR-O w/ CTRP   | R50-FPN  | Occluded DIOR-R | 1x  | 59.43 |
 | O-RCNN w/ CTRP | R101-FPN | Occluded DIOR-R | 1x  | 61.54 |
 | O-RCNN w/ CTRP | R101-FPN | Occluded DIOR-R | 1x  | 63.14 |
+
+---
 
 ## Citation
 
