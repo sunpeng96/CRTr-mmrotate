@@ -9,3 +9,11 @@ This is the official implementation of **Consistency Reasoning Transformer (CRTr
 
 ## Code implementation
 The code will be published after the paper is accepted. 
+
+## Benchmark
+
+| Model | Backbone | Dataset | Lr schd |  mAP |
+|:-:|:-:|:-:|:-:|:-:|
+| FR-O w/ CTRP | R50-FPN | DIOR-R |1x  | 65.10 |
+| FR-O w/ CTRP | R50-FPN | DOTA1.0 | 1x  | 75.49 |
+| O-RCNN w/ CTRP | R101-FPN | DOTA1.0 | 1x  | 75.89 |
